@@ -1,4 +1,6 @@
-@import url(./_settings.scss);
+@import "./settings";
+@import "./layouts/header";
+@import "./layouts/section1";
 
 * {
   padding: 0;

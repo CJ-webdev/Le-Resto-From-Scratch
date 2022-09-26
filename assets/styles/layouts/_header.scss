@@ -1,0 +1,68 @@
+header {
+  background: url(../img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+  color: $white1;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      font-family: $font1;
+      font-size: 3rem;
+      padding: 0 50px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      &.link-page {
+        width: 65%;
+        font-family: $font2;
+        text-transform: uppercase;
+      }
+      &.link-social li {
+        padding: 10px;
+        color: $white1;
+        &:visited {
+          color: $white1;
+        }
+      }
+    }
+  }
+
+  .header-text {
+    text-align: center;
+    margin: 110px auto;
+
+    h3 {
+      font-family: $font1;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: $color-title;
+    }
+    h1 {
+      font-family: $font2;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      line-height: 2rem;
+      padding-bottom: 40px;
+    }
+    img {
+      height: 20px;
+    }
+    p {
+      font-family: $font3;
+      padding-top: 20px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.section1 {
+  width: 100%;
+  display: flex;
+  .section1-left {
+    text-align: center;
+    height: 330px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: $color-title 2px dotted;
+
+    h3 {
+      font-family: $font1;
+      color: $color-title;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-family: $font2;
+      line-height: 5px;
+      text-transform: uppercase;
+      padding-bottom: 30px;
+    }
+    img {
+      height: 30px;
+      padding-bottom: 10px;
+    }
+    p {
+      font-family: $font3;
+      font-size: 0.9rem;
+    }
+    #russel {
+      height: 70px;
+      border-radius: 70px;
+      padding: 10px;
+    }
+    h4 {
+      font-family: $font2;
+      font-size: 1rem;
+    }
+    h5 {
+      font-family: $font3;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      color: grey;
+    }
+  }
+  .section1-right {
+    height: 350px;
+    width: 50%;
+    background: url(../img/store-01.jpg) center/cover;
+  }
+}

@@ -1,4 +1,132 @@
-@import url(./_settings.scss);
+@font-face {
+  font-family: "Allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+header {
+  background: url(../img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+  color: rgb(240, 231, 231);
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+header nav h3 {
+  font-family: "Allura";
+  font-size: 3rem;
+  padding: 0 50px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+header nav ul.link-page {
+  width: 65%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+header nav ul.link-social li {
+  padding: 10px;
+  color: rgb(240, 231, 231);
+}
+header nav ul.link-social li:visited {
+  color: rgb(240, 231, 231);
+}
+header .header-text {
+  text-align: center;
+  margin: 110px auto;
+}
+header .header-text h3 {
+  font-family: "Allura";
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: rgb(121, 80, 0);
+}
+header .header-text h1 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 2rem;
+  padding-bottom: 40px;
+}
+header .header-text img {
+  height: 20px;
+}
+header .header-text p {
+  font-family: "Roboto";
+  padding-top: 20px;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+}
+.section1 .section1-left {
+  text-align: center;
+  height: 330px;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: rgb(121, 80, 0) 2px dotted;
+}
+.section1 .section1-left h3 {
+  font-family: "Allura";
+  color: rgb(121, 80, 0);
+  font-size: 2rem;
+}
+.section1 .section1-left h2 {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  line-height: 5px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.section1 .section1-left img {
+  height: 30px;
+  padding-bottom: 10px;
+}
+.section1 .section1-left p {
+  font-family: "Roboto";
+  font-size: 0.9rem;
+}
+.section1 .section1-left #russel {
+  height: 70px;
+  border-radius: 70px;
+  padding: 10px;
+}
+.section1 .section1-left h4 {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+.section1 .section1-left h5 {
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: grey;
+}
+.section1 .section1-right {
+  height: 350px;
+  width: 50%;
+  background: url(../img/store-01.jpg) center/cover;
+}
+
 * {
   padding: 0;
   margin: 0;
